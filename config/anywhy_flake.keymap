@@ -113,11 +113,11 @@
 
         base {
             bindings = <
-&kp ESC         &kp N1  &kp N2        &kp N3     &kp N4     &kp N5    &kp N6  &kp N7     &kp N8     &kp N9    &kp N0     &kp BACKSPACE
-&kp TAB         &kp Q   &kp W         &kp E      &kp R      &kp T     &kp Y   &kp U      &kp I      &kp O     &kp P      &kp ENTER
-&kp LEFT_SHIFT  &kp A   &kp S         &kp D      &kp F      &kp G     &kp H   &kp J      &kp K      &kp L     &kp SEMI   &kp RIGHT_SHIFT
-&kp LCTRL       &kp Z   &kp X         &kp C      &kp V      &kp B     &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH   &kp RCTRL
-                &mo 1   &kp LEFT_WIN  &kp LCTRL  &kp SPACE  &mo 1     &mo 2   &kp SPACE  &to 2      &kp LALT  &kp LCTRL
+&kp ESC         &kp N1  &kp N2        &kp N3  &kp N4     &kp N5    &kp N6  &kp N7     &kp N8     &kp N9    &kp N0    &kp BACKSPACE
+&kp TAB         &kp Q   &kp W         &kp E   &kp R      &kp T     &kp Y   &kp U      &kp I      &kp O     &kp P     &kp ENTER
+&kp LEFT_SHIFT  &kp A   &kp S         &kp D   &kp F      &kp G     &kp H   &kp J      &kp K      &kp L     &kp SEMI  &kp RIGHT_SHIFT
+&kp LCTRL       &kp Z   &kp X         &kp C   &kp V      &kp B     &kp N   &kp M      &kp COMMA  &kp DOT   &kp FSLH  &kp RCTRL
+                &mo 1   &kp LEFT_WIN  &mo 2   &kp SPACE  &mo 3     &mo 3   &kp SPACE  &mo 2      &kp LALT  &mo 1
             >;
         };
 
@@ -143,11 +143,11 @@
 
         orange {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-        &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+&none  &none     &none     &none      &none   &none     &none   &none     &none      &kp F11  &kp F12   &none
+&none  &none     &kp UP    &none      &none   &none     &none   &none     &kp PG_UP  &none    &kp PLUS  &none
+&none  &kp LEFT  &kp DOWN  &kp RIGHT  &none   &none     &none   &kp HOME  &kp PG_DN  &kp END  &kp SEMI  &none
+&none  &none     &none     &none      &none   &none     &none   &none     &none      &none    &none     &none
+       &trans    &trans    &trans     &trans  &trans    &trans  &trans    &trans     &trans   &trans
             >;
         };
 
